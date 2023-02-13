@@ -1,0 +1,176 @@
+body {
+    margin: 0;  
+}
+
+.gray_background {
+    height: 1000px;
+    background-color: #F7F7F8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FORM HEADERS */
+.form_container {
+    width: 545px;
+
+    padding: 48px;
+
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+
+    box-sizing: border-box;
+}
+
+
+/* FORM HEADERS */
+.form_header {
+    margin: 0;
+
+    font-family: "Metropolis-SemiBold";
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.form_description {
+    margin: 8px 0 41px;
+
+    color: #7D7D7D;
+    font-family: "Metropolis-Regular";
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+/* FORM BUTTONS */
+.formBtn_container {
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.formBtn_container button{
+    padding: 16px 24px;
+
+    border: 1px solid;
+    border-radius: 16px;
+
+    cursor: pointer;
+
+    font-family: "Metropolis-Regular";
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.form_backBtn {
+    margin-right: 16px;
+
+    color: #0077E5;
+    border-radius: #0077E5;
+    background-color: #FFFFFF;
+
+    transition: all 0.3s ease;
+}
+
+.form_backBtn:hover {
+    color: #FFFFFF;
+    border-color: #0077E5;
+    background-color: #0077E5;
+}
+
+
+.form_NextBtn {
+    color: #FFFFFF;
+    border-color: #0077E5;
+    background-color: #0077E5;
+
+    transition: all 0.3s ease;
+}
+
+.form_NextBtn:hover {
+    border-radius: #0053a0;
+    background-color: #0053a0;
+}
+
+
+
+/* FORM QUESTIONS */
+.form_questionContainer {
+    margin-bottom: 16px;
+
+    display: flex;
+}
+
+.form_question_no {
+    width: 43px;
+    height: 25px;
+
+    margin-right: 15px;
+
+    color: #0077E5;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: "Metropolis-SemiBold";
+
+    border-radius: 50%;
+    border: 1px solid #0077E5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_question {
+    margin: 3px 0 0;
+
+    font-family: "Metropolis-Regular";
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.form_reactionContainer {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_reactionContainer li {
+    padding: 16px;
+
+    border-radius: 4px;
+    border: 1px solid #B3B9C1;
+
+    background-color: #F7F7F8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.form_reactionContainer li:hover {
+    background-color: #b1b7bf;
+}
+
+.form_degree_status {
+    margin: 0 0 50px;
+    padding: 0;
+    list-style-type: none;
+
+    color: #7D7D7D;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Metropolis-Regular";
+
+    display: flex;
+    justify-content: space-between;
+}
