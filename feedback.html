@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMR</title>
+
+    <!-- FONTS -->
+    <link rel="stylesheet" href="./css/fonts.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/feedback.css">
+</head>
+<body>
+    
+    <!-- BACK-TO BTN -->
+    <section class="form_backBtn_section">
+        <a class="form_backPageBtn" href="">Back to Dashboard</a>
+    </section>
+
+    <!-- FORM PROGRESS BAR -->
+    <section class="form_progress_section">
+        <ul class="form_progress_container">
+            <li class="form_progress" id="form_progress_active"></li>
+            <li class="form_progress"></li>
+            <li class="form_progress"></li>
+            <li class="form_progress"></li>
+            <li class="form_progress"></li>
+            <li class="form_progress"></li>
+            <li class="form_progress"></li>
+            <li class="form_progress"></li>
+            <li class="form_progress"></li>
+            <li class="form_progress"></li>
+            <li class="form_progress"></li>
+            <li class="form_progress"></li>
+        </ul>
+    </section>
+
+    <section class="form_section">
+        
+        <div class="form_container">
+            <h4 class="form_header">Leave your feedback</h4>
+            <p class="form_description">
+                Thank you for your ratings of how you feel and how you feel about the team. 
+                <br><br>
+                You now have the opportunity to provide feedback to your team if you wish to comment on any specific rating results, or provide general feedback.
+            </p>
+
+            <form action="">
+
+                <div class="feedback_message">
+                    <p class="form_sectionHeader">Leave feedback for</p> 
+
+                    <div class="dropDown_Container">
+                        <div class="feedback_dropDown_btn">
+                            <div class="feedback_dropDown_txt">
+                                <p class="feedback_staffName">Peter Jacobson</p>
+                                <p class="feedback_staff_position">Team Leader</p>
+                            </div>
+                            <svg class="feedback_dropDown_btn_arrow" xmlns="http://www.w3.org/2000/svg" width="10" height="5" viewBox="0 0 10 5" fill="none">
+                                <path d="M5 5L0 0L10 0L5 5Z" fill="#7D7D7D"/>
+                            </svg>
+                        </div>
+    
+                        <ul class="feedback_dropDown">
+                            <li class="feedback_dropMenu">
+                                <p class="feedback_staffName">Peter Jacobson</p>
+                                <p class="feedback_staff_position">Team Leader</p>
+                            </li>
+                            <li class="feedback_dropMenu">
+                                <p class="feedback_staffName">Peter Jacobson</p>
+                                <p class="feedback_staff_position">Team Leader</p>
+                            </li>
+                            <li class="feedback_dropMenu">
+                                <p class="feedback_staffName">Peter Jacobson</p>
+                                <p class="feedback_staff_position">Team Leader</p>
+                            </li>
+                            <li class="feedback_dropMenu">
+                                <p class="feedback_staffName">Peter Jacobson</p>
+                                <p class="feedback_staff_position">Team Leader</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="feedback_message">
+                    <p class="form_sectionHeader">Feedback</p>
+                    <textarea class="form_messageInput" name="" id="" cols="30" rows="7" placeholder="Enter your feedback"></textarea>
+                </div>
+
+            </form>
+
+            <div>
+                <button class="add_more_feedBtn">Add more feedback</button>
+            </div>
+
+            <div class="clearFix"></div>
+
+            <div class="formBtn_container">
+                <button class="form_NextBtn">Finish</button>
+            </div>
+        </div>
+
+    </section>  
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
